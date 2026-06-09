@@ -1,0 +1,105 @@
+```gitignore
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# ==========================
+# Jupyter / Colab
+# ==========================
+.ipynb_checkpoints/
+*.ipynb
+
+# ==========================
+# VS Code / IDE
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# ==========================
+# Python testing / coverage
+# ==========================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache/
+
+# ==========================
+# Logs
+# ==========================
+*.log
+logs/
+
+# ==========================
+# Dataset files
+# Raw WESAD should NOT be committed
+# ==========================
+data/raw/
+
+# Processed data (very large)
+data/processed/
+
+# If you want to keep folder structure:
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/processed/features/.gitkeep
+
+# ==========================
+# Model checkpoints
+# ==========================
+checkpoints/
+models_saved/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# ==========================
+# Experiment outputs
+# Keep final tables and figures,
+# ignore intermediate outputs
+# ==========================
+results/tmp/
+results/cache/
+
+# ==========================
+# Temporary files
+# ==========================
+*.tmp
+*.temp
+*.bak
+
+# ==========================
+# Environment files
+# ==========================
+.env
+.env.*
+*.env
+
+# ==========================
+# OS generated files
+# ==========================
+Desktop.ini
+ehthumbs.db
+```
