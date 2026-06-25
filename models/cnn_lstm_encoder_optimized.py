@@ -17,7 +17,7 @@ class ModalityEncoderSeq(nn.Module):
         return x
 
 class MultiModalCNNLSTM(nn.Module):
-    def __init__(self, n_modalities=4, conv_channels=64, lstm_hidden=64, embed_dim=256, n_classes=2, pooled_seq_len=100):
+    def __init__(self, n_modalities=4, conv_channels=32, lstm_hidden=32, embed_dim=64, n_classes=2, pooled_seq_len=50):
         super().__init__()
         self.n_modalities = n_modalities
         self.encoders = nn.ModuleList([ModalityEncoderSeq(conv_channels) for _ in range(n_modalities)])
