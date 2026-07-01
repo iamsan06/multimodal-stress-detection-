@@ -1,0 +1,5 @@
+Scenario,mean,std
+No ECG,10.51,16.12
+No EDA,3.34,9.17
+No Respiration,1.07,5.33
+No Temperature,4.76,10.17

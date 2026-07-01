@@ -1,0 +1,458 @@
+{
+  "RandomForest": [
+    {
+      "subject": 2,
+      "classifier": "RandomForest",
+      "accuracy": 0.8571428571428571,
+      "macro_f1": 0.8057713651498335,
+      "auroc": 0.93890120719389,
+      "n_test_windows": 140,
+      "n_train_windows": 2047,
+      "stress_ratio_test": 0.29285714285714287
+    },
+    {
+      "subject": 3,
+      "classifier": "RandomForest",
+      "accuracy": 0.8450704225352113,
+      "macro_f1": 0.778125,
+      "auroc": 0.8111904761904762,
+      "n_test_windows": 142,
+      "n_train_windows": 2045,
+      "stress_ratio_test": 0.29577464788732394
+    },
+    {
+      "subject": 4,
+      "classifier": "RandomForest",
+      "accuracy": 0.993006993006993,
+      "macro_f1": 0.9915128494272657,
+      "auroc": 0.9990435198469632,
+      "n_test_windows": 143,
+      "n_train_windows": 2044,
+      "stress_ratio_test": 0.2867132867132867
+    },
+    {
+      "subject": 5,
+      "classifier": "RandomForest",
+      "accuracy": 0.7534246575342466,
+      "macro_f1": 0.6741879494173072,
+      "auroc": 0.8729395604395604,
+      "n_test_windows": 146,
+      "n_train_windows": 2041,
+      "stress_ratio_test": 0.2876712328767123
+    },
+    {
+      "subject": 6,
+      "classifier": "RandomForest",
+      "accuracy": 0.8,
+      "macro_f1": 0.7185596680275751,
+      "auroc": 0.8751709986320109,
+      "n_test_windows": 145,
+      "n_train_windows": 2042,
+      "stress_ratio_test": 0.296551724137931
+    },
+    {
+      "subject": 7,
+      "classifier": "RandomForest",
+      "accuracy": 0.9862068965517241,
+      "macro_f1": 0.9829971857410882,
+      "auroc": 1.0,
+      "n_test_windows": 145,
+      "n_train_windows": 2042,
+      "stress_ratio_test": 0.2896551724137931
+    },
+    {
+      "subject": 8,
+      "classifier": "RandomForest",
+      "accuracy": 0.958904109589041,
+      "macro_f1": 0.9518151815181518,
+      "auroc": 0.9964349376114082,
+      "n_test_windows": 146,
+      "n_train_windows": 2041,
+      "stress_ratio_test": 0.3013698630136986
+    },
+    {
+      "subject": 9,
+      "classifier": "RandomForest",
+      "accuracy": 0.8551724137931035,
+      "macro_f1": 0.8444921096981768,
+      "auroc": 0.9658002735978113,
+      "n_test_windows": 145,
+      "n_train_windows": 2042,
+      "stress_ratio_test": 0.296551724137931
+    },
+    {
+      "subject": 10,
+      "classifier": "RandomForest",
+      "accuracy": 0.9066666666666666,
+      "macro_f1": 0.8987268518518519,
+      "auroc": 1.0,
+      "n_test_windows": 150,
+      "n_train_windows": 2037,
+      "stress_ratio_test": 0.31333333333333335
+    },
+    {
+      "subject": 11,
+      "classifier": "RandomForest",
+      "accuracy": 0.8979591836734694,
+      "macro_f1": 0.8888888888888888,
+      "auroc": 0.9664488017429195,
+      "n_test_windows": 147,
+      "n_train_windows": 2040,
+      "stress_ratio_test": 0.30612244897959184
+    },
+    {
+      "subject": 13,
+      "classifier": "RandomForest",
+      "accuracy": 0.8027210884353742,
+      "macro_f1": 0.7929074568860821,
+      "auroc": 0.9818872987477639,
+      "n_test_windows": 147,
+      "n_train_windows": 2040,
+      "stress_ratio_test": 0.2925170068027211
+    },
+    {
+      "subject": 14,
+      "classifier": "RandomForest",
+      "accuracy": 0.7891156462585034,
+      "macro_f1": 0.7823054507237377,
+      "auroc": 0.9943355119825708,
+      "n_test_windows": 147,
+      "n_train_windows": 2040,
+      "stress_ratio_test": 0.30612244897959184
+    },
+    {
+      "subject": 15,
+      "classifier": "RandomForest",
+      "accuracy": 0.8571428571428571,
+      "macro_f1": 0.81524926686217,
+      "auroc": 0.9627096204766107,
+      "n_test_windows": 147,
+      "n_train_windows": 2040,
+      "stress_ratio_test": 0.29931972789115646
+    },
+    {
+      "subject": 16,
+      "classifier": "RandomForest",
+      "accuracy": 0.9455782312925171,
+      "macro_f1": 0.9387755102040816,
+      "auroc": 0.9989106753812637,
+      "n_test_windows": 147,
+      "n_train_windows": 2040,
+      "stress_ratio_test": 0.30612244897959184
+    },
+    {
+      "subject": 17,
+      "classifier": "RandomForest",
+      "accuracy": 0.96,
+      "macro_f1": 0.954536269953526,
+      "auroc": 0.9971080355298493,
+      "n_test_windows": 150,
+      "n_train_windows": 2037,
+      "stress_ratio_test": 0.31333333333333335
+    }
+  ],
+  "SVM": [
+    {
+      "subject": 2,
+      "classifier": "SVM",
+      "accuracy": 0.8714285714285714,
+      "macro_f1": 0.8425,
+      "auroc": 0.9593495934959351,
+      "n_test_windows": 140,
+      "n_train_windows": 2047,
+      "stress_ratio_test": 0.29285714285714287
+    },
+    {
+      "subject": 3,
+      "classifier": "SVM",
+      "accuracy": 0.8943661971830986,
+      "macro_f1": 0.8617152502759202,
+      "auroc": 0.8983333333333334,
+      "n_test_windows": 142,
+      "n_train_windows": 2045,
+      "stress_ratio_test": 0.29577464788732394
+    },
+    {
+      "subject": 4,
+      "classifier": "SVM",
+      "accuracy": 0.993006993006993,
+      "macro_f1": 0.9915128494272657,
+      "auroc": 1.0,
+      "n_test_windows": 143,
+      "n_train_windows": 2044,
+      "stress_ratio_test": 0.2867132867132867
+    },
+    {
+      "subject": 5,
+      "classifier": "SVM",
+      "accuracy": 0.8013698630136986,
+      "macro_f1": 0.6995245191966504,
+      "auroc": 0.9483745421245421,
+      "n_test_windows": 146,
+      "n_train_windows": 2041,
+      "stress_ratio_test": 0.2876712328767123
+    },
+    {
+      "subject": 6,
+      "classifier": "SVM",
+      "accuracy": 0.9103448275862069,
+      "macro_f1": 0.8902857808043769,
+      "auroc": 0.945280437756498,
+      "n_test_windows": 145,
+      "n_train_windows": 2042,
+      "stress_ratio_test": 0.296551724137931
+    },
+    {
+      "subject": 7,
+      "classifier": "SVM",
+      "accuracy": 0.903448275862069,
+      "macro_f1": 0.8706676860346585,
+      "auroc": 0.9937586685159501,
+      "n_test_windows": 145,
+      "n_train_windows": 2042,
+      "stress_ratio_test": 0.2896551724137931
+    },
+    {
+      "subject": 8,
+      "classifier": "SVM",
+      "accuracy": 0.9452054794520548,
+      "macro_f1": 0.9357535753575357,
+      "auroc": 0.9776069518716577,
+      "n_test_windows": 146,
+      "n_train_windows": 2041,
+      "stress_ratio_test": 0.3013698630136986
+    },
+    {
+      "subject": 9,
+      "classifier": "SVM",
+      "accuracy": 0.903448275862069,
+      "macro_f1": 0.8931578947368422,
+      "auroc": 0.9792521659826722,
+      "n_test_windows": 145,
+      "n_train_windows": 2042,
+      "stress_ratio_test": 0.296551724137931
+    },
+    {
+      "subject": 10,
+      "classifier": "SVM",
+      "accuracy": 0.96,
+      "macro_f1": 0.954536269953526,
+      "auroc": 0.9977277422020244,
+      "n_test_windows": 150,
+      "n_train_windows": 2037,
+      "stress_ratio_test": 0.31333333333333335
+    },
+    {
+      "subject": 11,
+      "classifier": "SVM",
+      "accuracy": 0.8571428571428571,
+      "macro_f1": 0.8480283562250776,
+      "auroc": 0.9697167755991285,
+      "n_test_windows": 147,
+      "n_train_windows": 2040,
+      "stress_ratio_test": 0.30612244897959184
+    },
+    {
+      "subject": 13,
+      "classifier": "SVM",
+      "accuracy": 0.7414965986394558,
+      "macro_f1": 0.7350094876660342,
+      "auroc": 0.9584078711985689,
+      "n_test_windows": 147,
+      "n_train_windows": 2040,
+      "stress_ratio_test": 0.2925170068027211
+    },
+    {
+      "subject": 14,
+      "classifier": "SVM",
+      "accuracy": 0.8707482993197279,
+      "macro_f1": 0.8614926853458964,
+      "auroc": 0.9880174291938998,
+      "n_test_windows": 147,
+      "n_train_windows": 2040,
+      "stress_ratio_test": 0.30612244897959184
+    },
+    {
+      "subject": 15,
+      "classifier": "SVM",
+      "accuracy": 0.9047619047619048,
+      "macro_f1": 0.8778490028490029,
+      "auroc": 0.9750661959399823,
+      "n_test_windows": 147,
+      "n_train_windows": 2040,
+      "stress_ratio_test": 0.29931972789115646
+    },
+    {
+      "subject": 16,
+      "classifier": "SVM",
+      "accuracy": 0.9183673469387755,
+      "macro_f1": 0.9099264705882353,
+      "auroc": 0.9949891067538126,
+      "n_test_windows": 147,
+      "n_train_windows": 2040,
+      "stress_ratio_test": 0.30612244897959184
+    },
+    {
+      "subject": 17,
+      "classifier": "SVM",
+      "accuracy": 0.9533333333333334,
+      "macro_f1": 0.9477585949549729,
+      "auroc": 0.9948357777318736,
+      "n_test_windows": 150,
+      "n_train_windows": 2037,
+      "stress_ratio_test": 0.31333333333333335
+    }
+  ],
+  "XGBoost": [
+    {
+      "subject": 2,
+      "classifier": "XGBoost",
+      "accuracy": 0.8428571428571429,
+      "macro_f1": 0.7819314641744548,
+      "auroc": 0.9411185020941117,
+      "n_test_windows": 140,
+      "n_train_windows": 2047,
+      "stress_ratio_test": 0.29285714285714287
+    },
+    {
+      "subject": 3,
+      "classifier": "XGBoost",
+      "accuracy": 0.8732394366197183,
+      "macro_f1": 0.8223519599666389,
+      "auroc": 0.9178571428571429,
+      "n_test_windows": 142,
+      "n_train_windows": 2045,
+      "stress_ratio_test": 0.29577464788732394
+    },
+    {
+      "subject": 4,
+      "classifier": "XGBoost",
+      "accuracy": 0.986013986013986,
+      "macro_f1": 0.9829029172644668,
+      "auroc": 0.9992826398852224,
+      "n_test_windows": 143,
+      "n_train_windows": 2044,
+      "stress_ratio_test": 0.2867132867132867
+    },
+    {
+      "subject": 5,
+      "classifier": "XGBoost",
+      "accuracy": 0.773972602739726,
+      "macro_f1": 0.6196415883792532,
+      "auroc": 0.9427655677655677,
+      "n_test_windows": 146,
+      "n_train_windows": 2041,
+      "stress_ratio_test": 0.2876712328767123
+    },
+    {
+      "subject": 6,
+      "classifier": "XGBoost",
+      "accuracy": 0.8275862068965517,
+      "macro_f1": 0.7465212222921473,
+      "auroc": 0.9388964888280894,
+      "n_test_windows": 145,
+      "n_train_windows": 2042,
+      "stress_ratio_test": 0.296551724137931
+    },
+    {
+      "subject": 7,
+      "classifier": "XGBoost",
+      "accuracy": 0.9724137931034482,
+      "macro_f1": 0.9654761904761904,
+      "auroc": 0.9990753582986592,
+      "n_test_windows": 145,
+      "n_train_windows": 2042,
+      "stress_ratio_test": 0.2896551724137931
+    },
+    {
+      "subject": 8,
+      "classifier": "XGBoost",
+      "accuracy": 0.9246575342465754,
+      "macro_f1": 0.9121972554808375,
+      "auroc": 0.9572192513368983,
+      "n_test_windows": 146,
+      "n_train_windows": 2041,
+      "stress_ratio_test": 0.3013698630136986
+    },
+    {
+      "subject": 9,
+      "classifier": "XGBoost",
+      "accuracy": 0.9103448275862069,
+      "macro_f1": 0.8982456140350877,
+      "auroc": 0.9651162790697674,
+      "n_test_windows": 145,
+      "n_train_windows": 2042,
+      "stress_ratio_test": 0.296551724137931
+    },
+    {
+      "subject": 10,
+      "classifier": "XGBoost",
+      "accuracy": 0.8933333333333333,
+      "macro_f1": 0.8851674641148325,
+      "auroc": 0.999793431109275,
+      "n_test_windows": 150,
+      "n_train_windows": 2037,
+      "stress_ratio_test": 0.31333333333333335
+    },
+    {
+      "subject": 11,
+      "classifier": "XGBoost",
+      "accuracy": 0.8775510204081632,
+      "macro_f1": 0.8682795698924731,
+      "auroc": 0.9886710239651416,
+      "n_test_windows": 147,
+      "n_train_windows": 2040,
+      "stress_ratio_test": 0.30612244897959184
+    },
+    {
+      "subject": 13,
+      "classifier": "XGBoost",
+      "accuracy": 0.7959183673469388,
+      "macro_f1": 0.7864199922510655,
+      "auroc": 0.9935152057245081,
+      "n_test_windows": 147,
+      "n_train_windows": 2040,
+      "stress_ratio_test": 0.2925170068027211
+    },
+    {
+      "subject": 14,
+      "classifier": "XGBoost",
+      "accuracy": 0.8027210884353742,
+      "macro_f1": 0.7952941176470588,
+      "auroc": 0.9934640522875817,
+      "n_test_windows": 147,
+      "n_train_windows": 2040,
+      "stress_ratio_test": 0.30612244897959184
+    },
+    {
+      "subject": 15,
+      "classifier": "XGBoost",
+      "accuracy": 0.8027210884353742,
+      "macro_f1": 0.7000633223105608,
+      "auroc": 0.9457193292144749,
+      "n_test_windows": 147,
+      "n_train_windows": 2040,
+      "stress_ratio_test": 0.29931972789115646
+    },
+    {
+      "subject": 16,
+      "classifier": "XGBoost",
+      "accuracy": 0.9795918367346939,
+      "macro_f1": 0.9764082811747713,
+      "auroc": 0.9997821350762528,
+      "n_test_windows": 147,
+      "n_train_windows": 2040,
+      "stress_ratio_test": 0.30612244897959184
+    },
+    {
+      "subject": 17,
+      "classifier": "XGBoost",
+      "accuracy": 0.9666666666666667,
+      "macro_f1": 0.9619115331877508,
+      "auroc": 0.9987605866556497,
+      "n_test_windows": 150,
+      "n_train_windows": 2037,
+      "stress_ratio_test": 0.31333333333333335
+    }
+  ]
+}
