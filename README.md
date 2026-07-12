@@ -1,6 +1,6 @@
 # Robust Stress Detection Under Missing Biosignal Modalities
 
-A multimodal physiological stress detection framework that evaluates the robustness of machine learning and deep learning models under simulated sensor failures. The project investigates how missing physiological modalities affect stress classification performance using the WESAD dataset and introduces a systematic robustness evaluation protocol based on inference-time modality dropout. Three approaches are compared: a handcrafted-feature SVM baseline, a multimodal CNN, and a multimodal CNN-LSTM. Extensive Leave-One-Subject-Out (LOSO) experiments demonstrate both predictive performance and robustness under realistic wearable sensor failures. :contentReference[oaicite:0]{index=0}
+A multimodal physiological stress detection framework that evaluates the robustness of machine learning and deep learning models under simulated sensor failures. The project investigates how missing physiological modalities affect stress classification performance using the WESAD dataset and introduces a systematic robustness evaluation protocol based on inference-time modality dropout. Three approaches are compared: a handcrafted-feature SVM baseline, a multimodal CNN, and a multimodal CNN-LSTM. Extensive Leave-One-Subject-Out (LOSO) experiments demonstrate both predictive performance and robustness under realistic wearable sensor failures.
 
 ---
 
@@ -473,3 +473,18 @@ TODO
 - NeuroKit2
 - PyTorch
 - Scikit-learn
+
+## Authors
+
+**Sankar S. Pillai**  
+Undergraduate Researcher  
+School of Computer Science and Engineering (SCOPE)  
+VIT Chennai, India
+
+**Martin Wills**  
+School of Computer Science and Engineering (SCOPE)  
+VIT Chennai, India
+
+---
+
+This work was carried out under our guide Dr Premsankar at the **Centre for Healthcare Advancement, Innovation and Research (CHAIR), VIT Chennai** as part of the SRIP Program conducted during May 2026 to July 2026.
