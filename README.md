@@ -452,19 +452,6 @@ jupyter notebook notebooks/missing_modality.ipynb
 
 ---
 
-# Citation
-
-```bibtex
-@unpublished{pillai2026sensorfailure,
-  title   = {Sensor Failure in Wearable Stress Detection: Evaluating Missing-Modality Robustness},
-  author  = {Pillai, Sankar S. and Wills, Martin and Sankar, N. Prem},
-  note    = {SRIP Program, Centre for Healthcare Advancement, Innovation and Research (CHAIR), Vellore Institute of Technology, Chennai},
-  year    = {2026}
-}
-```
-
----
-
 # License
 
 TODO
