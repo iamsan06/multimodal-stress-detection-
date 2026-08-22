@@ -12,7 +12,7 @@ This work evaluates the robustness of multimodal stress detection systems under 
 
 Experimental evaluation is performed using Leave-One-Subject-Out cross-validation across fifteen subjects. In addition to conventional classification metrics, robustness is measured using a Robustness Score (RS), defined as the ratio between the Macro-F1 score obtained under missing modalities and the corresponding full-modality performance.
 
-The results demonstrate that CNN-LSTM achieves the best overall predictive performance while providing improved robustness under missing sensor conditions. Furthermore, the experiments establish the relative importance of individual physiological modalities, identifying ECG as the most critical signal and respiration as the least sensitive modality for robust stress detection. :contentReference[oaicite:1]{index=1}
+The results demonstrate that CNN-LSTM achieves the best overall predictive performance while providing improved robustness under missing sensor conditions. Furthermore, the experiments establish the relative importance of individual physiological modalities, identifying ECG as the most critical signal and respiration as the least sensitive modality for robust stress detection.
 
 ---
 
@@ -51,10 +51,10 @@ The results demonstrate that CNN-LSTM achieves the best overall predictive perfo
 │   └── final_results.ipynb
 │
 ├── results/
-│   ├── figures/              # Publication-quality figures
-│   ├── missing_modality/     # Robustness experiment outputs
-│   ├── models/               # Saved LOSO checkpoints
-│   └── *.csv                 # Evaluation metrics
+│   ├── figures/               # Publication-quality figures
+│   ├── missing_modality/      # Robustness experiment outputs
+│   ├── models/                # Saved LOSO checkpoints
+│   └── *.csv                  # Evaluation metrics
 │
 ├── requirements.txt
 └── README.md
@@ -303,7 +303,7 @@ Multi Modality Dropout
 
 ```text
 CPU : Intel Core i5-13500H
-GPU : TODO
+GPU : Not used (all models trained on CPU)
 RAM : TODO
 ```
 
@@ -318,7 +318,6 @@ PyTorch
 NumPy
 SciPy
 Scikit-learn
-Pandas
 NeuroKit2
 Matplotlib
 ```
@@ -345,11 +344,11 @@ Matplotlib
 
 | Model | Macro-F1 | AUROC | Accuracy |
 |--------|---------:|-------:|----------:|
-| Handcrafted + SVM | **0.875** | TODO | TODO |
-| CNN | 0.849 | TODO | TODO |
-| CNN-LSTM | **0.879** | TODO | TODO |
+| Handcrafted + SVM | **0.875** | 0.972 | 0.895 |
+| CNN | 0.849 | 0.9705 | 0.893 |
+| CNN-LSTM | **0.879** | 0.9481 | 0.897 |
 
-The CNN-LSTM achieved the highest Macro-F1 among the evaluated models, slightly outperforming the handcrafted SVM baseline while demonstrating superior robustness under missing-modality experiments. :contentReference[oaicite:2]{index=2}
+The CNN-LSTM achieved the highest Macro-F1 among the evaluated models, slightly outperforming the handcrafted SVM baseline while demonstrating superior robustness under missing-modality experiments.
 
 ---
 
@@ -362,7 +361,7 @@ The CNN-LSTM achieved the highest Macro-F1 among the evaluated models, slightly 
 | EDA | 3.34 |
 | Respiration | 1.07 |
 
-These experiments indicate that ECG contributes the most to stress classification performance, whereas respiration has the smallest impact when removed. :contentReference[oaicite:3]{index=3}
+These experiments indicate that ECG contributes the most to stress classification performance, whereas respiration has the smallest impact when removed.
 
 ---
 
@@ -370,10 +369,10 @@ These experiments indicate that ECG contributes the most to stress classificatio
 
 | Metric | Value |
 |---------|------:|
-| Precision | TODO |
-| Recall | TODO |
-| AUROC | TODO |
-| Robustness Score | TODO |
+| Precision | Not reported (Accuracy, Macro-F1, and AUROC are the primary reported metrics) |
+| Recall | Not reported (Accuracy, Macro-F1, and AUROC are the primary reported metrics) |
+| AUROC | See per-model AUROC in Full-Modality Performance table above |
+| Robustness Score | See per-modality RS in Performance Under Missing Modalities section above |
 
 ---
 
@@ -456,7 +455,12 @@ jupyter notebook notebooks/missing_modality.ipynb
 # Citation
 
 ```bibtex
-TODO
+@unpublished{pillai2026sensorfailure,
+  title   = {Sensor Failure in Wearable Stress Detection: Evaluating Missing-Modality Robustness},
+  author  = {Pillai, Sankar S. and Wills, Martin and Sankar, N. Prem},
+  note    = {SRIP Program, Centre for Healthcare Advancement, Innovation and Research (CHAIR), Vellore Institute of Technology, Chennai},
+  year    = {2026}
+}
 ```
 
 ---
@@ -476,13 +480,13 @@ TODO
 
 ## Authors
 
-**Sankar S. Pillai**  
-Undergraduate Researcher  
-School of Computer Science and Engineering (SCOPE)  
+**Sankar S. Pillai**
+Undergraduate Researcher
+School of Computer Science and Engineering (SCOPE)
 VIT Chennai, India
 
-**Martin Wills**  
-School of Computer Science and Engineering (SCOPE)  
+**Martin Wills**
+School of Computer Science and Engineering (SCOPE)
 VIT Chennai, India
 
 ---
